@@ -1,4 +1,4 @@
-#Objective :
+# Objective :
 This is a Kaggle competition task I select for a portfolio project. I selected this task because it is related to my industry of public transport also throughout my course I use everyday traffic congestion as a real-world example problem to discuss different machine learning topics.
 The Kaggle task is to predict congestion, based on an aggregate measure of stopping distance and waiting times, at intersections in 4 major US cities: Atlanta, Boston, Chicago & Philadelphia. 
 The data consists of aggregated trip logging metrics from commercial vehicles, such as semi-trucks. The data have been grouped by :
