@@ -1,15 +1,26 @@
 # Objective :
 This is a Kaggle competition task I select for a portfolio project. I selected this task because it is related to my industry of public transport also throughout my course I use everyday traffic congestion as a real-world example problem to discuss different machine learning topics.
-The Kaggle task is to predict congestion, based on an aggregate measure of stopping distance and waiting times, at intersections in 4 major US cities: Atlanta, Boston, Chicago & Philadelphia. 
+The Kaggle task is to predict congestion, based on an aggregate measure of stopping distance and waiting times, at intersections in 4 major US cities: Atlanta, Boston, Chicago & Philadelphia.
+
 The data consists of aggregated trip logging metrics from commercial vehicles, such as semi-trucks. The data have been grouped by :
+
     intersection
+    
     month
+    
     hour of day
+    
     direction is driven through the intersection
+    
     whether the day was on a weekend or not
+    
 For each grouping in the test set, we need to make predictions for three different quantiles, that is, 20th, 50th, and 80th percentiles for:
+
     The total time stopped at an intersection
+    
     The distance between the intersection and the first place a vehicle stopped while waiting.
+    
 Data was downloaded from 
 https://www.kaggle.com/competitions/bigquery-geotab-intersection-congestion/overview
+
 First, we will do data analysis then data processing and feature engineering. Then we try different types of regression models. Later will select a model with a minimum root mean square error value and then fine-tune its hyperparameters to further, improve model performance.
